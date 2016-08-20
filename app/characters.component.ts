@@ -1,12 +1,13 @@
-import { Component, OnInit } from 'angular2/core';
-import { Router } from 'angular2/router';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Character, CharacterService } from './character.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-characters',
-  templateUrl: 'app/characters.component.html',
-  styleUrls: ['app/characters.component.css']
+  templateUrl: 'characters.component.html',
+  styleUrls: ['characters.component.css']
 })
 export class CharactersComponent implements OnInit {
   characters: Character[];
