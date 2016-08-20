@@ -1,7 +1,10 @@
 # Getting Started
 
-1. Fork and clone this repo
+Super simple Angular 2 app with 1 module and 2 routes
 
-1. `npm i`
-
-1. Run the TypeScript compiler, watch for changes, start the server, and launch the browser `npm start`
+```
+git clone https://github.com/johnpapa/angular2-go.git a2-go
+cd a2-go
+npm i
+npm start
+```
