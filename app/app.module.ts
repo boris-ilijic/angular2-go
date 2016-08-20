@@ -5,7 +5,7 @@ import { HttpModule, XHRBackend } from '@angular/http';
 
 import { AppComponent }   from './app.component';
 // import './shared/rxjs-extensions';
-import { routing } from './app.routing';
+import { routing, routedComponents } from './app.routing';
 import { CharacterService } from './character.service'
 
 @NgModule({
@@ -15,7 +15,7 @@ import { CharacterService } from './character.service'
     HttpModule,
     routing,
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, routedComponents],
   providers: [
     CharacterService
   ],
